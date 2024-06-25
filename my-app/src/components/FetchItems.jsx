@@ -15,7 +15,7 @@ useEffect(() => {
     const controller = new AbortController();
     const signal = controller.signal;
     dispatch(fetchAction.markFetchingStarted());
-    fetch("http://localhost:8080/items", )
+    fetch("http://localhost:8080/items",)
     .then((res) => res.json())
     .then(({items}) => {
         dispatch(fetchAction.markFetchDone());

@@ -30,7 +30,7 @@ const BagItem = ({item}) => {
         <span className="delivery-details-days">{item.delivery_date}</span>
       </div>
     </div>
-    <div className="remove-from-cart" onClick={handleRemoveItem}><MdDeleteForever /></div>
+    <div className="remove-from-cart" onClick={handleRemoveItem}><MdDeleteForever/></div>
   </div>
 
      )
