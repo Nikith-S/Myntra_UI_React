@@ -5,7 +5,7 @@ return (
 <footer>
         <div className="footer_container">
             <div className="footer_column">
-                <h3>ONLINE SHOPPING</h3>
+                <h3>ONLINE SHOPPING MART</h3>
 
                 <a href="#">Men</a>
                 <a href="#">Women</a>
