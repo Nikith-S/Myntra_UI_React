@@ -5,7 +5,7 @@ import { MdDelete } from "react-icons/md";
 
 const HomeItem = ({item}) => {
  const bagItems = useSelector(store => store.bag)
-const elementFound = bagItems.indexOf(item.id) >=0;
+const elementFound = bagItems.indexOf(item.id) >= 0;
 
 console.log(elementFound)
 

@@ -6,7 +6,7 @@ const LoadingSpinner = () => {
           role="status"
           style={{ width: "5rem", height: "5rem" }}
         >
-          <span className="visually-hidden">Loading...</span>
+          <span className="visually-hidden">Loading.....</span>
         </div>
       </div>
     );
